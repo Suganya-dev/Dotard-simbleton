@@ -17,7 +17,27 @@ const companies = [
         place: "california",
         address: "8555 Moore's lane"
     },
+    {
+        id: 4,
+        name: "Divashini shop",
+        place: "california",
+        address: "8555 Moore's lane"
+    },
+    {
+        id: 5,
+        name: "Jpcs shop",
+        place: "california",
+        address: "8555 Moore's lane"
+    },
 ]
- export const useCompanies = () => {
-     return companies.slice();
- }
+ export const useCompanies =companies.filter( companyObject =>{
+    if(companyObject.place = "california"){
+        return true
+    }else{
+        return false
+    } } )
+    
+ 
+
+
+    
