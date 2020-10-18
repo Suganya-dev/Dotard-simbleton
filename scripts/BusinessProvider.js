@@ -30,9 +30,10 @@ const companies = [
         address: "8555 Moore's lane"
     },
 ]
- export const useCompanies = ()=> {
-     return companies.slice()
- }
+ export const useCompanies = companies.map(companyObject =>{
+     return companyObject.address
+ })
+ 
     
  
 
