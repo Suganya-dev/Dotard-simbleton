@@ -3,13 +3,18 @@ import {Company} from "./Business.js";
 const ContentElement = document.querySelector(".businessList--california")
 
 export const companyList = () => {
+    
     const number = useCompanies()
-    ContentElement.innerHTML += "<h1>California company lists</h1>"
+    ContentElement.innerHTML += Company(number)
 
  
-number.forEach(
-    (companyObj) => {
-        ContentElement.innerHTML +=  Company(companyObj)
-    }
-);
+  number.filter
+    (companyObject => {
+       if(companyObject.place="california"){
+    return true
+   }
+   return false
+    
+    })
 }
+   

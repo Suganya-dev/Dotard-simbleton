@@ -30,12 +30,9 @@ const companies = [
         address: "8555 Moore's lane"
     },
 ]
- export const useCompanies =companies.filter( companyObject =>{
-    if(companyObject.place = "california"){
-        return true
-    }else{
-        return false
-    } } )
+ export const useCompanies = ()=> {
+     return companies.slice()
+ }
     
  
 
