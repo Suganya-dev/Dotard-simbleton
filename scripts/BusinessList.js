@@ -11,7 +11,7 @@ export const companyList = () => {
   number.filter
     (companyObject => {
        if(companyObject.place="california"){
-    return true
+    return companyObject
    }
    return false
     
