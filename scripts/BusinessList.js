@@ -8,13 +8,13 @@ export const companyList = () => {
     ContentElement.innerHTML += Company(number)
 
  
-//   number.filter
-//     (companyObject => {
-//        if(companyObject.place="california"){
-//     return companyObject
-//    }
-//    return false
+  number.filter
+    (companyObject => {
+       if(companyObject.place="california"){
+    return companyObject
+   }
+   return false
     
-//     })
+    })
 }
    
