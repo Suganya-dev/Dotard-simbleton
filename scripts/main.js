@@ -1,3 +1,3 @@
-import {companyList} from "./scripts/BusinessList.js"
+import {companyList} from "./BusinessList.js";
 
 companyList();

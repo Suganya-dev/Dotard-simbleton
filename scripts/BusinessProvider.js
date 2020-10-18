@@ -13,7 +13,7 @@ const companies = [
     },
     {
         id: 3,
-        name: "tarunika shop",
+        name: "Tarunika shop",
         place: "california",
         address: "8555 Moore's lane"
     },
