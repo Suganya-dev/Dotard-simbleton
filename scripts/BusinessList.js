@@ -1,6 +1,6 @@
 import {useCompanies} from "./BusinessProvider.js";
 import {Company} from "./Business.js";
-const ContentElement = document.querySelector(".businessList--california")
+const ContentElement = document.querySelector(".agents")
 
 export const companyList = () => {
     
